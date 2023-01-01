@@ -10,7 +10,7 @@ for _ in range(N):
 
 from time import sleep
 
-def show(board=W, t=1, opt="", emph=[]):
+def show(board=W, t=0.3, opt="", emph=[]):
     string = opt + "\n"
     for i in range(N):
         for j in range(N):
@@ -76,7 +76,7 @@ while True:
         for n, (_i, _j) in enumerate(path):
             temp = W[_i][_j]
             W[_i][_j] = 9
-            show(W, t=0.1, opt=f"Lv: {weight}({exp}/{weight}), time: {time + n}s")
+            show(W, t=0.05, opt=f"Lv: {weight}({exp}/{weight}), time: {time + n}s")
             W[_i][_j] = temp
 
     time += dist
