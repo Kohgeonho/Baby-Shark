@@ -5,6 +5,9 @@
 ### Visualization
 ![baby_shark_viz](https://user-images.githubusercontent.com/62281102/210172576-c86d2734-e8e8-4fcd-8499-845aa0efad20.gif)
 
+### Ranking
+2nd place in Python3 (2023.01.03)
+![image](https://user-images.githubusercontent.com/62281102/210374572-0725cd15-a8c5-4fad-8fbe-f2d896b91e5b.png)
 
 ### Algorithm
 - BFS
